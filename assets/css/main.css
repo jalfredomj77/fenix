@@ -1,13 +1,6 @@
 @import url("font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");
 
-/*
-	Photon by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
-/* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
@@ -54,6 +47,12 @@
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
+	}
+
+
+	header{
+		margin-bottom: 155px;
+
 	}
 
 /* Containers */
@@ -345,11 +344,11 @@
 	}
 
 	.row.uniform.\35 0\25 > * {
-		padding: 1em 0 0 1em;
+		padding: 1em 0 0 20em;
 	}
 
 	.row.uniform.\35 0\25 {
-		margin: -1em 0 -1px -1em;
+		margin: -1em 0 -1px 20em;
 	}
 
 	.row.\32 5\25 > * {
@@ -562,7 +561,7 @@
 		}
 
 		.row.uniform.\35 0\25 {
-			margin: -1em 0 -1px -1em;
+			margin: -1em 0 -1px 20em;
 		}
 
 		.row.\32 5\25 > * {
@@ -965,6 +964,9 @@
 
 		.row.\31 50\25 > * {
 			padding: 0 0 0 2.25em;
+		}
+		.row #back{
+			background: rgba(160, 162, 193, 0.09);
 		}
 
 		.row.\31 50\25 {
@@ -1854,7 +1856,7 @@
 		}
 
 	h1 {
-		font-size: 2.25em;
+		font-size: 2.5em;
 		line-height: 1.35em;
 	}
 
@@ -1985,12 +1987,12 @@
 	}
 
 		header.major:after {
-			background: rgba(179, 78, 29, 0.5);
+			background: rgba(15, 39, 145, 0.5);
 			content: '';
 			display: inline-block;
 			height: 1px;
 			margin-top: 1.5em;
-			width: 6em;
+			width: 16em;
 		}
 
 		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
@@ -2665,6 +2667,7 @@
 			background-color: #555;
 			box-shadow: none !important;
 			color: #fff !important;
+			margin-left: 5em;
 		}
 
 			input[type="submit"].special:hover,
@@ -2708,10 +2711,11 @@
 
 		.main.style2 {
 			background-color: #333;
-			color: rgba(255, 255, 255, 0.75);
+			color: #666;
 			background-attachment: fixed,							fixed;
-			background-image: url("images/overlay1.png"), url("../../images/header.jpg");
-			background-size: auto,							cover;
+			/*background-image: url("images/overlay1.png"), url("../../images/header3.jpg");*/
+			background-image: url("../../images/header3.jpg");
+			background-size: cover;
 		}
 
 			.main.style2 a {
@@ -2723,15 +2727,15 @@
 				}
 
 			.main.style2 h1, .main.style2 h2, .main.style2 h3, .main.style2 h4, .main.style2 h5, .main.style2 h6, .main.style2 strong, .main.style2 b {
-				color: #ffffff;
+				color: #000000;
 			}
 
 			.main.style2 header p {
-				color: #ffffff;
+				color: #666;
 			}
 
 			.main.style2 header.major:after {
-				background: #ffffff;
+				background: #666;
 			}
 
 			.main.style2 input[type="submit"],
@@ -2764,9 +2768,9 @@
 				.main.style2 input[type="button"].special,
 				.main.style2 button.special,
 				.main.style2 .button.special {
-					background-color: #ffffff;
+					background-color: #F60303;
 					box-shadow: inset 0 0 0 1px #ffffff !important;
-					color: #333 !important;
+					color: #ffffff !important;
 				}
 
 					.main.style2 input[type="submit"].special:hover,
@@ -2774,7 +2778,7 @@
 					.main.style2 input[type="button"].special:hover,
 					.main.style2 button.special:hover,
 					.main.style2 .button.special:hover {
-						background-color: rgba(255, 255, 255, 0.125) !important;
+						background-color: rgba(246, 3, 3, 0.58) !important;
 						color: #ffffff !important;
 					}
 
@@ -2783,25 +2787,25 @@
 					.main.style2 input[type="button"].special:active,
 					.main.style2 button.special:active,
 					.main.style2 .button.special:active {
-						background-color: rgba(255, 255, 255, 0.25) !important;
+						background-color: #F60303;
 					}
 
 			.main.style2 ul.major-icons li .icon {
-				border-color: #ffffff;
+				border-color: #666;
 			}
 
 			.main.style2 .icon.major {
-				color: #ffffff;
+				color: #666;
 			}
 
 /* Header */
 
 	#header {
 		padding: 9em 0 9em 0 ;
-		background-color: #FD2300;
+		background-color: #ffffff;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay3.png"), url("images/overlay3.svg"), linear-gradient(45deg, #FD2300 5%, #C54F0A 30%, #F7E800);
+		background-image: url("images/overlay3.png"), url("images/overlay3.svg"), linear-gradient(45deg, #055a9c 5%, #0A4CC5 30%, rgb(8, 77, 110));
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		overflow: hidden;
@@ -2985,10 +2989,10 @@
 
 	#footer {
 		padding: 6em 0 6em 0 ;
-		background-color: #4686a0;
+		background-color: #000000;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #FD2300 5%, #C54F0A 30%, #F7E800);
+		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #111112 5%, #1A1B1C 30%, rgb(12, 12, 12));
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		text-align: center;
